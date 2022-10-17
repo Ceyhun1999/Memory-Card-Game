@@ -1,0 +1,26 @@
+table { 
+    border-collapse: collapse; 
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+td { 
+    width: 100px; 
+    height: 100px; 
+    border: 1px solid #fff; 
+    text-align: center;
+    transition: 1s;
+    transform: rotateY(360deg);
+}
+#text, #timer, #rule {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:green;
+    text-shadow: 3px 3px 20px green,
+    -2px 1px 30px green;
+    height: 10px;
+}
+#rule {
+    font-size: 1em;
+}
